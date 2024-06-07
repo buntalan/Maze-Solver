@@ -42,7 +42,7 @@ def main():
         print("\n")
         print(player_position)
         print(player_direction)
-        time.sleep(2.5)
+        time.sleep(0.5)
         if check((player_direction + 1) % 4,
                  player_position,
                  maze):
